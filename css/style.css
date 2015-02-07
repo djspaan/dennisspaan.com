@@ -1,0 +1,79 @@
+
+
+
+* {
+	font-family: Calibri,Arial,sans-serif;
+}
+
+.home {
+	padding-top: 3%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+
+a {
+	color: #FFA500;
+}
+
+#logo {
+	padding-bottom:12%;
+}
+
+.carousel-caption {
+    top: 5em;
+    bottom: auto;
+    color:#2D3E50;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+	color: #2D3E50;
+}
+
+.collapsed{
+    background-color: #1A242F;
+}
+
+.carousel-indicators li{
+   border: 1px solid #2D3E50;
+}
+
+.carousel-indicators .active{
+   background-color: #2D3E50;
+}
+
+.navbar {
+	text-transform: uppercase;
+	position: fixed !important;
+	background-color: white;
+	max-width: 1140px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #2D3E50;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2D3E50;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav {
+   	color: black;
+   }
+
+ .navbar-default .navbar-brand, .navbar-default .navbar-brand {
+    color: orange;
+}
+
+ .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
